@@ -86,8 +86,10 @@ const HomePage = () => {
         setLoading(false);
         if (!data.success) throw new Error(data.message.errorMessage);
         else {
-          //  const mapped = data.livegaes
-          setLivegames(data.livegames);
+          const mapped = data.livegames.map((l) => {
+            return { ...l, gameTime: +l.gameTime * 1000 };
+          });
+          setLivegames(mapped);
           if (data.livegames.length === 0) setEmpty(true);
           dispatch({
             type: "ADDALLLIVEGAME",

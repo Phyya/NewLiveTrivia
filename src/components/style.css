@@ -175,6 +175,7 @@ ion-content {
   display: flex;
   align-items: center;
   align-content: center;
+  justify-content: center;
   background-color: #1c0234aa;
   color: #ffff !important;
   font-weight: 600;
