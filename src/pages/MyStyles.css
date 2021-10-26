@@ -1,0 +1,135 @@
+.live__game__header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #571594;
+  height: auto;
+  /* padding: 0 10px; */
+}
+.live__game__header__span {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+.live_game_rules {
+  margin: 10px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+li::before {
+  content: "•";
+  color: #270546;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.rules__span {
+  width: 20px;
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+.rules__h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.drawer__div {
+  background-color: #571594;
+  width: 300px;
+  color: white;
+  height: 100vh;
+}
+.falseTime__container {
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.time__container {
+  color: white;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  margin:0 auto;
+  background: #571594;
+  padding: 0 10px
+}
+.time__object {
+  display: flex;
+  flex-direction: column;
+  width: 26.6%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.time__numeric {
+  height: 70%;
+  font-size: 25px;
+  padding-top: 30%;
+}
+.time__alpha {
+  height: 30%;
+  padding-bottom: 20px;
+  /* background: #451370; */
+  /* padding-top: 10%; */
+}
+.colon {
+  width: 10%;
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.false__time-btn {
+  margin-top: 100px;
+}
+.error__span {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 50px;
+}
+.goodluck {
+  font-size: 100px;
+
+  margin-top: 20px;
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  20%,
+  50%,
+  80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  70% {
+    transform: translateY(-8px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+}
