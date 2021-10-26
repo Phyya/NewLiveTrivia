@@ -199,6 +199,10 @@ body {
   border: none;
   outline: none;
   background-color: #1c0234aa;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content:center;
   color: #ffff;
   font-weight: 600;
   font-size: 1.8rem;

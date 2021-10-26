@@ -172,6 +172,9 @@ ion-content {
   height: 5.6rem;
   border: none;
   outline: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
   background-color: #1c0234aa;
   color: #ffff !important;
   font-weight: 600;
