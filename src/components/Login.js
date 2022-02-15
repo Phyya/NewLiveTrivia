@@ -157,9 +157,9 @@ const Login = () => {
           <p className="verify-text verify-text-2">
             By proceeding, you are indicating that you agree to the{" "}
             <a href="/termsandconditions" className="option-link">
-              terms and conditions
+               terms and conditions
             </a>
-            of the game
+             of the game
           </p>
         </div>
       </div>
