@@ -128,6 +128,7 @@ const Login = () => {
 
               <button
                 className="btn splash-screen__btn link-btn"
+                style = {{bottom:"50px"}}
                 onClick={loginHandler}
               >
                 <p>
@@ -159,7 +160,7 @@ const Login = () => {
             <a href="/termsandconditions" className="option-link">
                terms and conditions
             </a>
-             of the game
+             &nbsp;of the game
           </p>
         </div>
       </div>
